@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1.125rem;
+}
+h1{
+    font-weight: bolder;
+}
+h3{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.parent{
+    width: 710px;
+    box-shadow: 10px 5px 20px hsl(221, 100%, 96%);
+    border-radius: 30px;
+}
+
+.result-section{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(241, 100%, 89%);
+    border-radius: 30px;
+}
+.result-section .total-score{
+    background: linear-gradient(hsla(256, 72%, 46%, 1),  hsla(241, 72%, 46%, 0));
+}
+
+
+.summary-section div div p{
+    margin: 0;
+    font-weight: 700;
+}
+.summary-section div div .slash-100{
+    font-weight: normal;
+    color: black;
+    opacity: .7;
+}
+button{ 
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 30px 0;
+    border-radius: 40px;
+    padding: 10px 0;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.reaction-box{
+    background-color: hsl(0, 100%, 67%,.1);
+    color: hsl(0, 100%, 67%);
+    border-radius: 10px;
+}
+.memory-box{
+    background-color: hsl(39, 100%, 56%,.1);
+    color: hsl(39, 100%, 56%);
+    border-radius: 10px;
+}
+.verbal-box{
+    background-color: hsl(166, 100%, 37%,.1);
+    color: hsl(166, 100%, 37%);
+    border-radius: 10px;
+}
+.visual-box{
+    background-color: hsl(234, 85%, 45%,.1);
+    color: hsl(234, 85%, 45%);
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: Hanken Grotesk;
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+  }
