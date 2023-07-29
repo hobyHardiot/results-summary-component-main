@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/result-summary-component-done-in-less-than-1hours-xf_2EsQFFU)
+- Live Site URL: [live](https://cool-fenglisu-f586b6.netlify.app/)
 
 ## My process
 
